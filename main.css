@@ -9,16 +9,37 @@ body
     text-overflow: ellipsis;
 }
 
-#headerImg
+#location
 {
-    width: 100%;
-    height: auto;
+    display: block;
+    margin-top: -100px;
+    margin-left: 30px;
+    width: 300px;
+}
+
+#climate
+{
+    display: block;
+    margin-top: -79px;
+    margin-left: 370px;
+}
+
+#temperature
+{
+    display: block;
+    margin-top: -59px;
+    margin-left: 520px;
+}
+
+#description
+{
+    display: block;
+    margin-left: 850px;
+    margin-top: -170px;
+    width: 550px;
 }
 
 @media only screen and (max-width:600px) 
 {
-    #headerImg
-    {
-        height: 500px;
-    }
+    
 }
