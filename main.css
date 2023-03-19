@@ -14,7 +14,7 @@ body
     display: block;
     margin-top: -100px;
     margin-left: 30px;
-    width: 300px;
+    width: 250px;
 }
 
 #climate
@@ -39,7 +39,126 @@ body
     width: 550px;
 }
 
-@media only screen and (max-width:600px) 
+@media only screen and (max-width:700px) 
 {
+    #location,#climate,#temperature,#description
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:700px) 
+{
+    #location,#climate,#temperature
+    {
+        display: none;
+    }
     
+    #description
+    {
+        margin-top: -130px;
+        margin-left: 40px;
+        width: 700px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width:1000px) 
+{
+    #location
+    {
+        display: block;
+    }
+    #climate
+    {
+        display: block;
+        margin-left: 265px;
+    }
+
+    #temperature
+    {
+        display: block;
+        margin-left: 390px;
+    }
+    #description
+    {
+        margin-top: -150px;
+        margin-left: 570px;
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width:1100px) 
+{
+    #location
+    {
+        display: block;
+    }
+    #climate
+    {
+        display: block;
+        margin-left: 265px;
+    }
+
+    #temperature
+    {
+        display: block;
+        margin-left: 390px;
+    }
+    #description
+    {
+        margin-top: -160px;
+        margin-left: 620px;
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width:1200px) 
+{
+    #location
+    {
+        display: block;
+    }
+    #climate
+    {
+        display: block;
+        margin-left: 265px;
+    }
+
+    #temperature
+    {
+        display: block;
+        margin-left: 390px;
+    }
+    #description
+    {
+        margin-top: -170px;
+        margin-left: 670px;
+        width: 520px;
+    }
+}
+
+@media only screen and (min-width:1300px) 
+{
+    #location
+    {
+        display: block;
+    }
+    #climate
+    {
+        display: block;
+        margin-left: 275px;
+    }
+
+    #temperature
+    {
+        display: block;
+        margin-left: 405px;
+    }
+    #description
+    {
+        margin-top: -165px;
+        margin-left: 780px;
+        width: 550px;
+    }
 }
