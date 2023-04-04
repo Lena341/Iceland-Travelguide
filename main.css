@@ -9,6 +9,11 @@ body
     text-overflow: ellipsis;
 }
 
+#header
+{
+    padding: 0px 0px 150px 0px; color: white;
+}
+
 #location
 {
     display: block;
@@ -39,9 +44,16 @@ body
     width: 550px;
 }
 
+#aboutNamibia p
+{
+   width: 600px;
+   text-align: justify;
+   margin: auto;
+}
+
 @media only screen and (max-width:700px) 
 {
-    #location,#climate,#temperature,#description
+    #location,#climate,#temperature,#description,#headerImg
     {
         display: none;
     }
