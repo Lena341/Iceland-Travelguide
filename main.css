@@ -11,7 +11,7 @@ body
 
 #header
 {
-    padding: 0px 0px 150px 0px; color: white;
+    padding: 0px 0px 450px 0px; color: white;
 }
 
 #location
@@ -56,13 +56,13 @@ body
     #header
     {
         padding: 0px 0px 830px 0px;
-        background-image: url(erik-n1VbsCPevyk-unsplash.jpg);
+        background-image: url(erik-n1VbsCPevyk-unsplash\ copy.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
 
-    #location,#climate,#temperature,#description,#aboutNamibia,#headerImg
+    #location,#climate,#temperature,#aboutNamibia,#headerImg,#description
     {
         display: none;
     }
