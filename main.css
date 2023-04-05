@@ -53,7 +53,16 @@ body
 
 @media only screen and (max-width:700px) 
 {
-    #location,#climate,#temperature,#description,#headerImg
+    #header
+    {
+        padding: 0px 0px 830px 0px;
+        background-image: url(erik-n1VbsCPevyk-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #location,#climate,#temperature,#description,#aboutNamibia,#headerImg
     {
         display: none;
     }
