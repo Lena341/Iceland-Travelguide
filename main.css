@@ -5,6 +5,9 @@ body
     position: relative;
     overflow-x: hidden;
     text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 #header
@@ -54,6 +57,27 @@ body
    width: 600px;
    text-align: justify;
    margin: auto;
+}
+
+.swiper
+{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide
+{
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img
+{
+    display: block;
+    width: 100%;
 }
 
 @media only screen and (max-width:700px) 
