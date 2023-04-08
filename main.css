@@ -5,8 +5,8 @@ body
     position: relative;
     overflow-x: hidden;
     text-overflow: ellipsis;
-    margin: 0;
     padding: 0;
+    margin: 0;
     height: 100%;
 }
 
@@ -59,22 +59,22 @@ body
    margin: auto;
 }
 
-.swiper
+swiper-container
 {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.swiper-slide
+swiper-slide
 {
     background-position: center;
     background-size: cover;
-    width: 300px;
+    width: 500px;
     height: 300px;
 }
 
-.swiper-slide img
+swiper-slide img
 {
     display: block;
     width: 100%;
