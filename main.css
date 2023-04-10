@@ -5,6 +5,8 @@ body
     position: relative;
     overflow-x: hidden;
     text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: keep-all;
     padding: 0;
     margin: 0;
     height: 100%;
@@ -14,6 +16,7 @@ body
 {
     padding: 0px 0px 170px 0px; 
     color: white;
+    margin-top: -62px;
 }
  
 #location
@@ -21,7 +24,7 @@ body
     display: block;
     margin-top: -100px;
     margin-left: 30px;
-    width: 250px;
+    max-width: 250px;
 }
 
 #climate
@@ -43,25 +46,26 @@ body
     display: block;
     margin-left: 850px;
     margin-top: -170px;
-    width: 550px;
+    max-width: 550px;
     font-size: 16px;
 }
 
 #aboutNamibia
 {
-    padding: 50px 60px 50px 80px; text-align: center;
+    padding: 50px 60px 150px 80px; 
+    text-align: center;
 }
 
 #aboutNamibia p
 {
-   width: 600px;
+   max-width: 600px;
    text-align: justify;
    margin: auto;
 }
 
 swiper-container
 {
-    width: 100%;
+    max-width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: black;
@@ -71,8 +75,8 @@ swiper-slide
 {
     background-position: center;
     background-size: cover;
-    width: 500px;
-    height: 300px;
+    max-width: 500px;
+    max-height: 300px;
 }
 
 swiper-slide img
@@ -95,7 +99,7 @@ swiper-slide img
 
     #location
     {
-        width: 160px;
+        max-width: 160px;
         margin-left: 10px;
     }
 
@@ -114,7 +118,7 @@ swiper-slide img
     {
         margin-left: 20px;
         margin-top: -280px;
-        width: 390px;
+        max-width: 390px;
         font-size: 13px;
     }
 
@@ -170,7 +174,7 @@ swiper-slide img
     {
         margin-top: -150px;
         margin-left: 570px;
-        width: 400px;
+        max-width: 400px;
     }
 }
 
@@ -195,7 +199,7 @@ swiper-slide img
     {
         margin-top: -160px;
         margin-left: 620px;
-        width: 500px;
+        max-width: 500px;
     }
 }
 
@@ -220,7 +224,7 @@ swiper-slide img
     {
         margin-top: -170px;
         margin-left: 670px;
-        width: 520px;
+        max-width: 520px;
     }
 }
 
@@ -245,6 +249,6 @@ swiper-slide img
     {
         margin-top: -165px;
         margin-left: 780px;
-        width: 550px;
+        max-width: 550px;
     }
 }
