@@ -14,7 +14,7 @@ body
 
 #header
 {
-    padding: 0px 0px 170px 0px; 
+    padding: 0px 0px 150px 0px; 
     color: white;
     margin-top: -62px;
 }
@@ -153,14 +153,28 @@ swiper-slide img
 
 @media only screen and (min-width:700px) 
 {
-    #headerImgPhone
+    #headerImgPhone, #description
     {
         display: none;
     }
 
+    #location
+    {
+        display: block;
+        max-width: 190px;
+        margin-left: 10px;
+    }
+
     #climate
     {
-        margin-left: 320px;
+        display: block;
+        margin-left: 260px;
+    }
+
+    #temperature
+    {
+        display: block;
+        margin-left: 420px;
     }
 }
 
@@ -183,6 +197,7 @@ swiper-slide img
     }
     #description
     {
+        display: block;
         margin-top: -150px;
         margin-left: 570px;
         max-width: 400px;
