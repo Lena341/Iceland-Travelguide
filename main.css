@@ -50,13 +50,13 @@ body
     font-size: 16px;
 }
 
-#aboutNamibia
+#aboutNamibia,#aboutWindhoek
 {
     padding: 50px 60px 150px 80px; 
     text-align: center;
 }
 
-#aboutNamibia p
+#aboutNamibia p, #aboutWindhoek p
 {
    max-width: 600px;
    text-align: justify;
@@ -68,7 +68,6 @@ swiper-container
     max-width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: black;
 }
 
 swiper-slide
